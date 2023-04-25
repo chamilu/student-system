@@ -1,0 +1,43 @@
+* {
+  outline: none;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  text-align: center;
+}
+
+input[type="text"] {
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  width: 400px;
+  color: #333;
+}
+
+.text-wrap {
+  margin-bottom: 10px;
+}
+
+button {
+  font-family: "Merriweather", serif;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #999;
+}
+
+.greet-wrap {
+  margin-top: 30px;
+  font-family: "Merriweather", serif;
+  font-size: 30px;
+  padding: 10px;
+  color: red;
+}
